@@ -1,0 +1,25 @@
+.alert {
+    padding: 20px;
+    width: 300px;
+    border: 2px solid red;
+    color: black;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .alert-header{
+      background-color: red;
+      color: white;
+       font-weight: bold;
+      display: flex;
+      justify-content: center;
+  }
+  .closebtn{
+    background-color:  red;
+      color: white;
+      border-style: none;
+       padding: 10px;
+  }
+ 
+  

@@ -1,0 +1,9 @@
+h1{
+    color: coral;
+}
+.container{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
