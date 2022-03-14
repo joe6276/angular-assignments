@@ -4,3 +4,9 @@
 <input type="text" (input)="add()" [(ngModel)]="username"/>
 <p> {{username}}</p>
 <button [disabled]="clicker" (click)="onButtonClick()">Click Me !!</button>
+
+
+
+<input type="text" (input)="add()" [(ngModel)]="username"/>
+<p> {{username}}</p>
+<button [disabled]="username === ''" (click)="username=''">Click Me !!</button>
