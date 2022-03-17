@@ -1,0 +1,21 @@
+<p>ODD EVEN CHECKER</p>
+
+
+<button class=" btn-primary"
+(click)="StartGame()"
+>Start Game</button>
+
+<button class=" btn-danger"
+(click)="StopGame()"
+>End Game</button>
+
+
+<p>{{value}}</p>
+
+
+
+<div class="container">
+
+    <app-assignment4even [number]="value"></app-assignment4even>
+    <app-assignment4odd [number]="value" ></app-assignment4odd>
+</div>

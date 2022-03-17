@@ -1,0 +1,32 @@
+
+<div class="main-container">
+<div class="container1">
+    <p>Question 1</p>
+    <span (click)="getText()"> {{text}} </span>
+
+</div>
+    <div class="text-container" *ngIf="display; noDiv">
+        <div class="paragraph">
+           <p>Please complete the tasks outlined in the instructions video.
+                Why did you choose the approach you took? Which problems did you encounter?</p> 
+        </div>
+
+        <div class="anser">
+            <p>Answer</p>
+        <span (click)="getAnswer()"> {{answerbar}} </span>
+        </div>
+
+        <div *ngIf="displayanwser; answerDiv" class="answer">
+          <p>My solution video shows one approach to complete the tasks outlined in the instruction video.</p>
+        </div>
+
+    </div>
+    <ng-template #noDiv>
+      
+</ng-template>
+
+<ng-template #answerDiv>
+ 
+</ng-template>
+</div>
+
