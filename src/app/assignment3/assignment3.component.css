@@ -1,0 +1,50 @@
+.container1{
+    margin-top: 20px;
+    display: flex;
+    width:1020px;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 4px;
+    margin-left: 100px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container1 span{
+   font-size: 50px;
+   font-weight: bold;
+   margin-right: 20px;
+   background-color: antiquewhite;
+ 
+}
+.container1 p{
+    font-size: 20px;
+   font-weight: bold; 
+}
+.text-container p{
+    background-color: lightgray;
+    font-size: 20px;
+    width: 1000px;
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+}
+.answer{
+    display: flex;
+    width: 1020px;
+}
+.answer  p{
+    background-color: lightgray;
+    font-size: 20px;
+   
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.text-container{
+    margin-left: 100px;
+}
