@@ -1,0 +1,8 @@
+
+
+<div class="active"  *ngFor="let user of activeUsers;let i =index">
+
+    <p>{{user}}</p><button (click)="updateUser(i)" class="btn btn-danger">set to Inactive</button>
+
+</div>
+

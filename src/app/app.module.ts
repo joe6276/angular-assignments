@@ -10,6 +10,11 @@ import { Assignment3Component } from './assignment3/assignment3.component';
 import { Assignment4ParentComponent } from './assignment4-parent/assignment4-parent.component';
 import { Assignment4oddComponent } from './assignment4odd/assignment4odd.component';
 import { Assignment4evenComponent } from './assignment4even/assignment4even.component';
+import { UsersComponent } from './Services_assignment/users/users.component';
+import { InactiveUsersComponent } from './Services_assignment/inactive-users/inactive-users.component';
+import { ActiveUsersComponent } from './Services_assignment/active-users/active-users.component';
+import { UserService } from './Services_assignment/Services/users.services';
+import { CounterService } from './Services_assignment/Services/counter.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,13 +24,16 @@ import { Assignment4evenComponent } from './assignment4even/assignment4even.comp
     Assignment3Component,
     Assignment4ParentComponent,
     Assignment4oddComponent,
-    Assignment4evenComponent
+    Assignment4evenComponent,
+    UsersComponent,
+    InactiveUsersComponent,
+    ActiveUsersComponent
   ],
   imports: [
     BrowserModule
     ,FormsModule
   ],
-  providers: [],
+  providers: [UserService,CounterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
