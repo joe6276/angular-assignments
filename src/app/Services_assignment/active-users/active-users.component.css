@@ -1,0 +1,17 @@
+.active{
+    display: flex;
+    border: 2px solid gray;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.inactive{
+    display: flex;
+    border: 2px solid gray;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+}
